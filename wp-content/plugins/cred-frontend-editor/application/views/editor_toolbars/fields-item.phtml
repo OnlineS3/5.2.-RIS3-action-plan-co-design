@@ -1,0 +1,25 @@
+<?php
+/**
+ * underscore.js template for each item in the dialog to insert a Toolset Form scaffold.
+ *
+ * @since m2m
+ */
+?>
+<script type="text/html" id="tmpl-cred-editor-fields-item">
+	<#
+	data = _.extend(
+		{ attributes: {}, options: {}, requiredItem: false },
+		data
+	);
+	#>
+	<button class="button-secondary button-small cred-editor-fields-item js-cred-editor-fields-item" 
+		data-shortcode="{{data.shortcode}}" 
+		data-fieldtype="{{data.fieldType}}" 
+		data-label="{{data.label}}" 
+		data-attributes="<# print( _.escape( ( JSON.stringify( data.attributes ) ) ) ); #>" 
+		data-options="<# print( _.escape( ( JSON.stringify( data.options ) ) ) ); #>" 
+		data-include="true"
+	>
+		{{{data.label}}}
+	</button>
+</script>

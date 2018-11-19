@@ -1,0 +1,8 @@
+/* Wordpress admin specific styles */
+
+/* Increase the size of child post title in the edit parent post screen */
+#wpcf-post-relationship table .textfield {
+    width: 100% !important;
+}
+
+

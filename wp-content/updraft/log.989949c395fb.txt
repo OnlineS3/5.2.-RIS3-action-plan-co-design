@@ -1,0 +1,563 @@
+0000.000 (0) Opened log file at time: Sat, 10 Nov 2018 22:23:35 +0000 on http://actionplan.s3platform.eu
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.11.24 WP: 4.9.8 PHP: 5.6.36 (cgi-fcgi, Linux ps100190 3.14.52-vs2.3.6.15-1 #1 SMP Wed Nov 2 10:45:38 UTC 2016 x86_64) MySQL: 5.6.34 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.8M | 15.5M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 18465.6 MB
+0000.004 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.005 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.013 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1541280822, seconds_ago=607793)
+0000.015 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2018-11-10 22:23:35
+0000.017 (0) Semaphore (fd, wp_options) reset to 1
+0000.018 (0) Set semaphore last lock (fd) time to 2018-11-10 22:23:35
+0000.019 (0) Semaphore lock (fd) complete
+0000.023 (0) Backup run: resumption=0, nonce=989949c395fb, begun at=1541888615 (0s ago), job type=backup
+0000.025 (0) Scheduling a resumption (1) after 300 seconds (1541888915) in case this run gets aborted
+0000.051 (0) Checking if we have a zip executable available
+0000.052 (0) Testing: /usr/bin/zip
+0000.061 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.062 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.063 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.064 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.065 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.073 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.074 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.090 (0) Working binary zip found: /usr/bin/zip
+0000.093 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.093 (0) Creation of backups of directories: beginning
+0000.098 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.388 (0) Total entities for the zip file: 2611 directories, 13525 files (0 skipped as non-modified), 165.6 MB
+0000.393 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.396 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.400 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.403 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.407 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.408 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.1 MB, 13525 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.843 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: size is now: 4.80 MB
+0000.857 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 600 files added (on-disk size: 4904.4 KB)
+0000.865 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 700 files added (on-disk size: 4904.4 KB)
+0000.869 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 800 files added (on-disk size: 4904.4 KB)
+0000.874 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 900 files added (on-disk size: 4904.4 KB)
+0000.878 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 1000 files added (on-disk size: 4904.4 KB)
+0000.880 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.2 MB, 13525 files batched, 501 (1002) added so far); re-opening (prior size: 4904.4 KB)
+0001.566 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: size is now: 8.40 MB
+0001.573 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 1100 files added (on-disk size: 8584.9 KB)
+0001.576 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 1200 files added (on-disk size: 8584.9 KB)
+0001.580 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 1300 files added (on-disk size: 8584.9 KB)
+0001.583 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 1400 files added (on-disk size: 8584.9 KB)
+0001.586 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 1500 files added (on-disk size: 8584.9 KB)
+0001.587 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10 MB, 13525 files batched, 501 (1503) added so far); re-opening (prior size: 8584.9 KB)
+0002.480 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: size is now: 11.40 MB
+0002.492 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 1600 files added (on-disk size: 11704.1 KB)
+0002.497 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 1700 files added (on-disk size: 11704.1 KB)
+0002.501 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 1800 files added (on-disk size: 11704.1 KB)
+0002.505 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 1900 files added (on-disk size: 11704.1 KB)
+0002.508 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 2000 files added (on-disk size: 11704.1 KB)
+0002.509 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 MB, 13525 files batched, 501 (2004) added so far); re-opening (prior size: 11704.1 KB)
+0003.021 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 2100 files added (on-disk size: 13755.2 KB)
+0003.025 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 2200 files added (on-disk size: 13755.2 KB)
+0003.028 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 2300 files added (on-disk size: 13755.2 KB)
+0003.032 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 2400 files added (on-disk size: 13755.2 KB)
+0003.037 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 2500 files added (on-disk size: 13755.2 KB)
+0003.038 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.2 MB, 13525 files batched, 501 (2505) added so far); re-opening (prior size: 13755.2 KB)
+0003.381 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 2600 files added (on-disk size: 14900.8 KB)
+0003.385 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 2700 files added (on-disk size: 14900.8 KB)
+0003.388 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 2800 files added (on-disk size: 14900.8 KB)
+0003.392 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 2900 files added (on-disk size: 14900.8 KB)
+0003.396 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 3000 files added (on-disk size: 14900.8 KB)
+0003.397 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 MB, 13525 files batched, 501 (3006) added so far); re-opening (prior size: 14900.8 KB)
+0003.854 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 3100 files added (on-disk size: 16747.1 KB)
+0003.861 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 3200 files added (on-disk size: 16747.1 KB)
+0003.864 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 3300 files added (on-disk size: 16747.1 KB)
+0003.867 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 3400 files added (on-disk size: 16747.1 KB)
+0003.872 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 3500 files added (on-disk size: 16747.1 KB)
+0003.874 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.6 MB, 13525 files batched, 501 (3507) added so far); re-opening (prior size: 16747.1 KB)
+0004.718 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 3600 files added (on-disk size: 19196.6 KB)
+0004.722 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 3700 files added (on-disk size: 19196.6 KB)
+0004.727 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 3800 files added (on-disk size: 19196.6 KB)
+0004.731 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 3900 files added (on-disk size: 19196.6 KB)
+0004.734 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 4000 files added (on-disk size: 19196.6 KB)
+0004.735 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.6 MB, 13525 files batched, 501 (4008) added so far); re-opening (prior size: 19196.6 KB)
+0005.310 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 4100 files added (on-disk size: 21298.1 KB)
+0005.314 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 4200 files added (on-disk size: 21298.1 KB)
+0005.317 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 4300 files added (on-disk size: 21298.1 KB)
+0005.321 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 4400 files added (on-disk size: 21298.1 KB)
+0005.325 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 4500 files added (on-disk size: 21298.1 KB)
+0005.326 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 MB, 13525 files batched, 501 (4509) added so far); re-opening (prior size: 21298.1 KB)
+0005.756 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 4600 files added (on-disk size: 22910.9 KB)
+0005.759 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 4700 files added (on-disk size: 22910.9 KB)
+0005.763 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 4800 files added (on-disk size: 22910.9 KB)
+0005.766 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 4900 files added (on-disk size: 22910.9 KB)
+0005.769 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 5000 files added (on-disk size: 22910.9 KB)
+0005.770 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.3 MB, 13525 files batched, 501 (5010) added so far); re-opening (prior size: 22910.9 KB)
+0006.486 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 5100 files added (on-disk size: 25903.6 KB)
+0006.492 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 5200 files added (on-disk size: 25903.6 KB)
+0006.496 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 5300 files added (on-disk size: 25903.6 KB)
+0006.500 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 5400 files added (on-disk size: 25903.6 KB)
+0006.505 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 5500 files added (on-disk size: 25903.6 KB)
+0006.506 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.8 MB, 13525 files batched, 501 (5511) added so far); re-opening (prior size: 25903.6 KB)
+0007.163 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 5600 files added (on-disk size: 28391.9 KB)
+0007.167 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 5700 files added (on-disk size: 28391.9 KB)
+0007.170 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 5800 files added (on-disk size: 28391.9 KB)
+0007.173 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 5900 files added (on-disk size: 28391.9 KB)
+0007.177 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 6000 files added (on-disk size: 28391.9 KB)
+0007.178 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7 MB, 13525 files batched, 501 (6012) added so far); re-opening (prior size: 28391.9 KB)
+0007.878 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 6100 files added (on-disk size: 30969.6 KB)
+0007.883 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 6200 files added (on-disk size: 30969.6 KB)
+0007.898 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 6300 files added (on-disk size: 30969.6 KB)
+0007.903 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 6400 files added (on-disk size: 30969.6 KB)
+0007.907 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 6500 files added (on-disk size: 30969.6 KB)
+0007.908 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.4 MB, 13525 files batched, 501 (6513) added so far); re-opening (prior size: 30969.6 KB)
+0008.399 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 6600 files added (on-disk size: 32179.1 KB)
+0008.405 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 6700 files added (on-disk size: 32179.1 KB)
+0008.411 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 6800 files added (on-disk size: 32179.1 KB)
+0008.417 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 6900 files added (on-disk size: 32179.1 KB)
+0008.425 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 7000 files added (on-disk size: 32179.1 KB)
+0008.427 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11 MB, 13525 files batched, 501 (7014) added so far); re-opening (prior size: 32179.1 KB)
+0009.510 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 7100 files added (on-disk size: 35877 KB)
+0009.514 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 7200 files added (on-disk size: 35877 KB)
+0009.517 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 7300 files added (on-disk size: 35877 KB)
+0009.520 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 7400 files added (on-disk size: 35877 KB)
+0009.523 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 7500 files added (on-disk size: 35877 KB)
+0009.525 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.4 MB, 13525 files batched, 501 (7515) added so far); re-opening (prior size: 35877 KB)
+0010.032 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 7600 files added (on-disk size: 37387.5 KB)
+0010.038 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 7700 files added (on-disk size: 37387.5 KB)
+0010.045 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 7800 files added (on-disk size: 37387.5 KB)
+0010.051 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 7900 files added (on-disk size: 37387.5 KB)
+0010.059 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 8000 files added (on-disk size: 37387.5 KB)
+0010.061 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10 MB, 13525 files batched, 501 (8016) added so far); re-opening (prior size: 37387.5 KB)
+0011.059 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 8100 files added (on-disk size: 40525.8 KB)
+0011.063 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 8200 files added (on-disk size: 40525.8 KB)
+0011.068 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 8300 files added (on-disk size: 40525.8 KB)
+0011.072 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 8400 files added (on-disk size: 40525.8 KB)
+0011.077 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 8500 files added (on-disk size: 40525.8 KB)
+0011.078 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.9 MB, 13525 files batched, 501 (8517) added so far); re-opening (prior size: 40525.8 KB)
+0011.600 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 8600 files added (on-disk size: 42423.9 KB)
+0011.603 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 8700 files added (on-disk size: 42423.9 KB)
+0011.607 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 8800 files added (on-disk size: 42423.9 KB)
+0011.610 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 8900 files added (on-disk size: 42423.9 KB)
+0011.613 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 9000 files added (on-disk size: 42423.9 KB)
+0011.614 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.6 MB, 13525 files batched, 501 (9018) added so far); re-opening (prior size: 42423.9 KB)
+0012.050 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 9100 files added (on-disk size: 43666.1 KB)
+0012.053 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 9200 files added (on-disk size: 43666.1 KB)
+0012.056 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 9300 files added (on-disk size: 43666.1 KB)
+0012.059 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 9400 files added (on-disk size: 43666.1 KB)
+0012.063 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 9500 files added (on-disk size: 43666.1 KB)
+0012.065 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.2 MB, 13525 files batched, 501 (9519) added so far); re-opening (prior size: 43666.1 KB)
+0012.637 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 9600 files added (on-disk size: 45674.2 KB)
+0012.640 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 9700 files added (on-disk size: 45674.2 KB)
+0012.643 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 9800 files added (on-disk size: 45674.2 KB)
+0012.646 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 9900 files added (on-disk size: 45674.2 KB)
+0012.649 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 10000 files added (on-disk size: 45674.2 KB)
+0012.650 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.2 MB, 13525 files batched, 501 (10020) added so far); re-opening (prior size: 45674.2 KB)
+0013.106 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 10100 files added (on-disk size: 46983.5 KB)
+0013.110 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 10200 files added (on-disk size: 46983.5 KB)
+0013.114 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 10300 files added (on-disk size: 46983.5 KB)
+0013.118 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 10400 files added (on-disk size: 46983.5 KB)
+0013.121 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 10500 files added (on-disk size: 46983.5 KB)
+0013.123 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 13525 files batched, 501 (10521) added so far); re-opening (prior size: 46983.5 KB)
+0013.537 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 10600 files added (on-disk size: 47789.9 KB)
+0013.541 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 10700 files added (on-disk size: 47789.9 KB)
+0013.544 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 10800 files added (on-disk size: 47789.9 KB)
+0013.547 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 10900 files added (on-disk size: 47789.9 KB)
+0013.551 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 11000 files added (on-disk size: 47789.9 KB)
+0013.552 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 13525 files batched, 501 (11022) added so far); re-opening (prior size: 47789.9 KB)
+0013.994 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 11100 files added (on-disk size: 49071.9 KB)
+0013.997 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 11200 files added (on-disk size: 49071.9 KB)
+0014.001 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 11300 files added (on-disk size: 49071.9 KB)
+0014.004 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 11400 files added (on-disk size: 49071.9 KB)
+0014.007 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 11500 files added (on-disk size: 49071.9 KB)
+0014.009 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 13525 files batched, 501 (11523) added so far); re-opening (prior size: 49071.9 KB)
+0014.751 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 11600 files added (on-disk size: 51533.5 KB)
+0014.756 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 11700 files added (on-disk size: 51533.5 KB)
+0014.760 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 11800 files added (on-disk size: 51533.5 KB)
+0014.764 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 11900 files added (on-disk size: 51533.5 KB)
+0014.768 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 12000 files added (on-disk size: 51533.5 KB)
+0014.770 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.8 MB, 13525 files batched, 501 (12024) added so far); re-opening (prior size: 51533.5 KB)
+0015.738 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 12100 files added (on-disk size: 53994 KB)
+0015.743 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 12200 files added (on-disk size: 53994 KB)
+0015.747 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 12300 files added (on-disk size: 53994 KB)
+0015.752 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 12400 files added (on-disk size: 53994 KB)
+0015.756 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 12500 files added (on-disk size: 53994 KB)
+0015.759 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.6 MB, 13525 files batched, 501 (12525) added so far); re-opening (prior size: 53994 KB)
+0016.414 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 12600 files added (on-disk size: 56101.1 KB)
+0016.418 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 12700 files added (on-disk size: 56101.1 KB)
+0016.423 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 12800 files added (on-disk size: 56101.1 KB)
+0016.428 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 12900 files added (on-disk size: 56101.1 KB)
+0016.432 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 13000 files added (on-disk size: 56101.1 KB)
+0016.434 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.8 MB, 13525 files batched, 501 (13026) added so far); re-opening (prior size: 56101.1 KB)
+0017.199 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 13100 files added (on-disk size: 58370 KB)
+0017.202 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 13200 files added (on-disk size: 58370 KB)
+0017.206 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 13300 files added (on-disk size: 58370 KB)
+0017.211 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 13400 files added (on-disk size: 58370 KB)
+0017.215 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip.tmp: 13500 files added (on-disk size: 58370 KB)
+0018.493 (0) Created plugins zip (0) - 59518.3 KB in 18.4 s (3235.8 KB/s) (sha1: 941e6de0ca20e96fafb1128cb5e3f95427b5b96b, sha256: 54854015e2e8d6adaa04c4bfa2c6f23ba522d2d2c82fa64d7242cb3f312be2d6)
+0018.496 (0) Beginning creation of dump of themes (split every: 400 MB)
+0018.509 (0) Total entities for the zip file: 102 directories, 479 files (0 skipped as non-modified), 7.3 MB
+0018.513 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0018.516 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0018.519 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0018.522 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0018.867 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-themes.zip.tmp: size is now: 5.00 MB
+0018.957 (0) Created themes zip (0) - 5154.6 KB in 0.5 s (11226.9 KB/s) (sha1: 4292029b8fbb647d3bec9f85c10156b81528a90d, sha256: 32497f842d21a77e4a9c9b82001fb60bee0fa59e1fe9a3761ce81379b9631a0d)
+0018.961 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0018.962 (0) Looking for candidates to back up in: /home/intelpatsar/actionplan.s3platform.eu/wp-content/uploads
+0018.963 (0) finding files: 2017: adding to list (1)
+0018.964 (0) finding files: ddl-layouts-tmp: adding to list (2)
+0018.965 (0) finding files: 2018: adding to list (3)
+0018.966 (0) finding files: wpdiscuz: adding to list (4)
+0018.967 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0018.974 (0) Total entities for the zip file: 23 directories, 196 files (0 skipped as non-modified), 17.1 MB
+0018.978 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0019.330 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-uploads.zip.tmp: size is now: 16.80 MB
+0019.573 (0) Created uploads zip (0) - 17194.4 KB in 0.6 s (28426.3 KB/s) (sha1: 8afd232e901210a9b04c1e95581b880cbdb43f23, sha256: 75731e466841580afef794c396371cae4a1eab22c0b0894f59283dcd85dbd7ba)
+0019.577 (0) Exclusion option setting (wpcore): 
+0019.578 (0) Looking for candidates to back up in: /home/intelpatsar/actionplan.s3platform.eu
+0019.579 (0) finding files: wp-admin: adding to list (1)
+0019.580 (0) finding files: wp-content: skipping: this is the wp-content directory
+0019.580 (0) finding files: wp-includes: adding to list (2)
+0019.581 (0) finding files: index.php: adding to list (3)
+0019.582 (0) finding files: license.txt: adding to list (4)
+0019.583 (0) finding files: readme.html: adding to list (5)
+0019.584 (0) finding files: wp-activate.php: adding to list (6)
+0019.585 (0) finding files: wp-blog-header.php: adding to list (7)
+0019.586 (0) finding files: wp-comments-post.php: adding to list (8)
+0019.586 (0) finding files: wp-config-sample.php: adding to list (9)
+0019.587 (0) finding files: wp-config.php: adding to list (10)
+0019.588 (0) finding files: wp-cron.php: adding to list (11)
+0019.589 (0) finding files: wp-links-opml.php: adding to list (12)
+0019.590 (0) finding files: wp-load.php: adding to list (13)
+0019.591 (0) finding files: wp-login.php: adding to list (14)
+0019.592 (0) finding files: wp-mail.php: adding to list (15)
+0019.593 (0) finding files: wp-settings.php: adding to list (16)
+0019.594 (0) finding files: wp-signup.php: adding to list (17)
+0019.594 (0) finding files: wp-trackback.php: adding to list (18)
+0019.595 (0) finding files: xmlrpc.php: adding to list (19)
+0019.596 (0) finding files: .htaccess.170612074831.orig: adding to list (20)
+0019.597 (0) finding files: .htaccess: adding to list (21)
+0019.598 (0) finding files: web.config: adding to list (22)
+0019.599 (0) finding files: wp-snapshots: adding to list (23)
+0019.600 (0) finding files: favicon.ico: adding to list (24)
+0019.601 (0) finding files: favicon.gif: adding to list (25)
+0019.602 (0) Beginning creation of dump of wpcore (split every: 400 MB)
+0019.624 (0) Total entities for the zip file: 111 directories, 1356 files (0 skipped as non-modified), 112.9 MB
+0019.627 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip.tmp: 100 files added (on-disk size: 0 KB)
+0019.631 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip.tmp: 200 files added (on-disk size: 0 KB)
+0019.635 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip.tmp: 300 files added (on-disk size: 0 KB)
+0019.638 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip.tmp: 400 files added (on-disk size: 0 KB)
+0019.641 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip.tmp: 500 files added (on-disk size: 0 KB)
+0019.642 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 1356 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0020.075 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip.tmp: size is now: 2.00 MB
+0020.081 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip.tmp: 600 files added (on-disk size: 2001.3 KB)
+0020.084 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip.tmp: 700 files added (on-disk size: 2001.3 KB)
+0020.087 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip.tmp: 800 files added (on-disk size: 2001.3 KB)
+0020.091 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip.tmp: 900 files added (on-disk size: 2001.3 KB)
+0020.094 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip.tmp: 1000 files added (on-disk size: 2001.3 KB)
+0020.096 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.7 MB, 1356 files batched, 501 (1002) added so far); re-opening (prior size: 2001.3 KB)
+0020.817 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip.tmp: size is now: 5.20 MB
+0020.823 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip.tmp: 1100 files added (on-disk size: 5303.2 KB)
+0020.828 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip.tmp: 1200 files added (on-disk size: 5303.2 KB)
+0020.832 (0) Zip: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip.tmp: 1300 files added (on-disk size: 5303.2 KB)
+0020.835 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (96 MB, 1356 files batched, 351 (1353) added so far); re-opening (prior size: 5303.2 KB)
+0021.980 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip.tmp: size is now: 92.40 MB
+0021.984 (0) A useful amount of data was added after this amount of zip processing: 1.7 s (normalised: 0.4 s, rate: 58678.4 KB/s)
+0021.987 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.6750700473785, normalised_time=0.43627647469141, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=209715200)
+0023.596 (0) Created wpcore zip (0) - 94743.8 KB in 4 s (23730.8 KB/s) (sha1: 488623828d4dd7ac2ddfc3138062a939df4e75a0, sha256: f24799096ce814845e7cfc3b3e585024f57402a06c9e1e539de4d934db31147e)
+0023.599 (0) Beginning backup of other directories found in the content directory (index: 0)
+0023.600 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0023.601 (0) Looking for candidates to back up in: /home/intelpatsar/actionplan.s3platform.eu/wp-content
+0023.602 (0) finding files: plugins: skipping: this is the plugins directory
+0023.603 (0) finding files: themes: skipping: this is the themes directory
+0023.604 (0) finding files: upgrade: skipping: excluded by options
+0023.605 (0) finding files: uploads: skipping: this is the uploads directory
+0023.606 (0) finding files: _modulemanager_tmp_: adding to list (1)
+0023.607 (0) finding files: index.php: adding to list (2)
+0023.608 (0) finding files: updraft: skipping: this is the updraft directory
+0023.611 (0) Total entities for the zip file: 1 directories, 2 files (0 skipped as non-modified), 0 MB
+0023.620 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-others.zip.tmp: size is now: 0.00 MB
+0023.628 (0) Created others zip (0) - 0.6 KB in 0 s (31.2 KB/s) (sha1: b6f4636fdb293370d0be62facea151863f9a3aad, sha256: 4c241204fc9ae81eec654bc5c9d42d48e97faf9e939e80c2d8fc8db6917be993)
+0023.629 (0) No backup of more: excluded by user's options
+0023.635 (0) Saving backup status to database (elements: 10)
+0023.641 (0) Beginning creation of database dump (WordPress DB)
+0023.644 (0) Testing: /usr/bin/mysqldump
+0023.666 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1216 bytes total)
+0023.668 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0023.791 (0) Table wp_options: Total expected rows (approximate): 408
+0023.826 (0) Table wp_options: Total rows added: 404 in 0.03 seconds
+0023.828 (0) Table wp_options: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_options.table.gz - 127.4 KB)
+0023.835 (0) Table wp_users: Total expected rows (approximate): 46
+0023.848 (0) Table wp_users: Total rows added: 46 in 0.01 seconds
+0023.851 (0) Table wp_users: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_users.table.gz - 3.4 KB)
+0023.858 (0) Table wp_usermeta: Total expected rows (approximate): 785
+0023.902 (0) Table wp_usermeta: Total rows added: 785 in 0.04 seconds
+0023.904 (0) Table wp_usermeta: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_usermeta.table.gz - 16.2 KB)
+0023.910 (0) Table wp_commentmeta: Total expected rows (approximate): 7
+0023.917 (0) Table wp_commentmeta: Total rows added: 7 in 0.01 seconds
+0023.918 (0) Table wp_commentmeta: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_commentmeta.table.gz - 0.5 KB)
+0023.929 (0) Table wp_comments: Total expected rows (approximate): 4
+0023.934 (0) Table wp_comments: Total rows added: 4 in 0.00 seconds
+0023.935 (0) Table wp_comments: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_comments.table.gz - 1.8 KB)
+0023.941 (0) Table wp_links: Total expected rows (approximate): 0
+0023.944 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0023.946 (0) Table wp_links: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_links.table.gz - 0.4 KB)
+0023.952 (0) Table wp_postmeta: Total expected rows (approximate): 715
+0023.992 (0) Table wp_postmeta: Total rows added: 715 in 0.04 seconds
+0023.994 (0) Table wp_postmeta: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_postmeta.table.gz - 37.6 KB)
+0023.999 (0) Table wp_posts: Total expected rows (approximate): 207
+0024.054 (0) Table wp_posts: Total rows added: 207 in 0.05 seconds
+0024.056 (0) Table wp_posts: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_posts.table.gz - 48.6 KB)
+0024.060 (0) Table wp_term_relationships: Total expected rows (approximate): 225
+0024.076 (0) Table wp_term_relationships: Total rows added: 225 in 0.01 seconds
+0024.077 (0) Table wp_term_relationships: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_term_relationships.table.gz - 1 KB)
+0024.082 (0) Table wp_term_taxonomy: Total expected rows (approximate): 353
+0024.095 (0) Table wp_term_taxonomy: Total rows added: 353 in 0.01 seconds
+0024.097 (0) Table wp_term_taxonomy: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_term_taxonomy.table.gz - 2.7 KB)
+0024.107 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0024.110 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0024.115 (0) Table wp_termmeta: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_termmeta.table.gz - 0.4 KB)
+0024.121 (0) Table wp_terms: Total expected rows (approximate): 353
+0024.136 (0) Table wp_terms: Total rows added: 353 in 0.01 seconds
+0024.138 (0) Table wp_terms: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_terms.table.gz - 6.6 KB)
+0024.140 (0) Skipping table (lacks our prefix (wp_)): smackuci_events
+0024.141 (0) Skipping table (lacks our prefix (wp_)): smackuci_history
+0024.146 (0) Table wp_duplicator_packages: Total expected rows (approximate): 1
+0024.155 (0) Table wp_duplicator_packages: Total rows added: 1 in 0.01 seconds
+0024.159 (0) Table wp_duplicator_packages: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_duplicator_packages.table.gz - 1.4 KB)
+0024.185 (0) Table wp_mrp_custom_fields: Total expected rows (approximate): 0
+0024.188 (0) Table wp_mrp_custom_fields: Total rows added: 0 in 0.00 seconds
+0024.190 (0) Table wp_mrp_custom_fields: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_mrp_custom_fields.table.gz - 0.3 KB)
+0024.199 (0) Table wp_mrp_rating_form: Total expected rows (approximate): 2
+0024.203 (0) Table wp_mrp_rating_form: Total rows added: 2 in 0.00 seconds
+0024.204 (0) Table wp_mrp_rating_form: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_mrp_rating_form.table.gz - 0.4 KB)
+0024.209 (0) Table wp_mrp_rating_form_item: Total expected rows (approximate): 9
+0024.219 (0) Table wp_mrp_rating_form_item: Total rows added: 9 in 0.01 seconds
+0024.220 (0) Table wp_mrp_rating_form_item: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_mrp_rating_form_item.table.gz - 0.5 KB)
+0024.230 (0) Table wp_mrp_rating_item: Total expected rows (approximate): 6
+0024.235 (0) Table wp_mrp_rating_item: Total rows added: 7 in 0.00 seconds
+0024.236 (0) Table wp_mrp_rating_item: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_mrp_rating_item.table.gz - 0.6 KB)
+0024.264 (0) Table wp_mrp_rating_item_entry: Total expected rows (approximate): 5
+0024.272 (0) Table wp_mrp_rating_item_entry: Total rows added: 5 in 0.01 seconds
+0024.273 (0) Table wp_mrp_rating_item_entry: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_mrp_rating_item_entry.table.gz - 0.6 KB)
+0024.290 (0) Table wp_mrp_rating_item_entry_value: Total expected rows (approximate): 30
+0024.295 (0) Table wp_mrp_rating_item_entry_value: Total rows added: 30 in 0.00 seconds
+0024.296 (0) Table wp_mrp_rating_item_entry_value: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_mrp_rating_item_entry_value.table.gz - 0.5 KB)
+0024.304 (0) Table wp_mrp_rating_result: Total expected rows (approximate): 133
+0024.337 (0) Table wp_mrp_rating_result: Total rows added: 145 in 0.03 seconds
+0024.339 (0) Table wp_mrp_rating_result: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_mrp_rating_result.table.gz - 1.7 KB)
+0024.457 (0) Table wp_pmxe_exports: Total expected rows (approximate): 0
+0024.480 (0) Table wp_pmxe_exports: Total rows added: 0 in 0.02 seconds
+0024.481 (0) Table wp_pmxe_exports: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_pmxe_exports.table.gz - 0.5 KB)
+0024.504 (0) Table wp_pmxe_google_cats: Total expected rows (approximate): 5512
+0024.741 (0) Table wp_pmxe_google_cats: Total rows added: 5371 in 0.24 seconds
+0024.744 (0) Table wp_pmxe_google_cats: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_pmxe_google_cats.table.gz - 75.3 KB)
+0024.764 (0) Table wp_pmxe_posts: Total expected rows (approximate): 0
+0024.767 (0) Table wp_pmxe_posts: Total rows added: 0 in 0.00 seconds
+0024.769 (0) Table wp_pmxe_posts: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_pmxe_posts.table.gz - 0.3 KB)
+0024.779 (0) Table wp_pmxe_templates: Total expected rows (approximate): 0
+0024.782 (0) Table wp_pmxe_templates: Total rows added: 0 in 0.00 seconds
+0024.783 (0) Table wp_pmxe_templates: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_pmxe_templates.table.gz - 0.3 KB)
+0024.802 (0) Table wp_relevanssi: Total expected rows (approximate): 3042
+0025.164 (0) Table wp_relevanssi: Total rows added: 3115 in 0.36 seconds
+0025.166 (0) Table wp_relevanssi: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_relevanssi.table.gz - 26.9 KB)
+0025.174 (0) Table wp_relevanssi_log: Total expected rows (approximate): 0
+0025.182 (0) Table wp_relevanssi_log: Total rows added: 0 in 0.01 seconds
+0025.183 (0) Table wp_relevanssi_log: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_relevanssi_log.table.gz - 0.4 KB)
+0025.192 (0) Table wp_relevanssi_stopwords: Total expected rows (approximate): 317
+0025.201 (0) Table wp_relevanssi_stopwords: Total rows added: 317 in 0.01 seconds
+0025.203 (0) Table wp_relevanssi_stopwords: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_relevanssi_stopwords.table.gz - 1.3 KB)
+0025.213 (0) Table wp_toolset_post_guid_id: Total expected rows (approximate): 31
+0025.221 (0) Table wp_toolset_post_guid_id: Total rows added: 31 in 0.01 seconds
+0025.223 (0) Table wp_toolset_post_guid_id: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_toolset_post_guid_id.table.gz - 0.7 KB)
+0025.237 (0) Table wp_ultimate_csv_importer_log_values: Total expected rows (approximate): 0
+0025.241 (0) Table wp_ultimate_csv_importer_log_values: Total rows added: 0 in 0.00 seconds
+0025.242 (0) Table wp_ultimate_csv_importer_log_values: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_ultimate_csv_importer_log_values.table.gz - 0.4 KB)
+0025.256 (0) Table wp_ultimate_csv_importer_manageshortcodes: Total expected rows (approximate): 0
+0025.260 (0) Table wp_ultimate_csv_importer_manageshortcodes: Total rows added: 0 in 0.00 seconds
+0025.261 (0) Table wp_ultimate_csv_importer_manageshortcodes: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_ultimate_csv_importer_manageshortcodes.table.gz - 0.4 KB)
+0025.272 (0) Table wp_ultimate_csv_importer_shortcodes_statusrel: Total expected rows (approximate): 0
+0025.276 (0) Table wp_ultimate_csv_importer_shortcodes_statusrel: Total rows added: 0 in 0.00 seconds
+0025.277 (0) Table wp_ultimate_csv_importer_shortcodes_statusrel: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_ultimate_csv_importer_shortcodes_statusrel.table.gz - 0.4 KB)
+0025.293 (0) Table wp_wc_avatars_cache: Total expected rows (approximate): 0
+0025.307 (0) Table wp_wc_avatars_cache: Total rows added: 0 in 0.01 seconds
+0025.308 (0) Table wp_wc_avatars_cache: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_wc_avatars_cache.table.gz - 0.4 KB)
+0025.314 (0) Table wp_wc_comments_subscription: Total expected rows (approximate): 0
+0025.317 (0) Table wp_wc_comments_subscription: Total rows added: 0 in 0.00 seconds
+0025.319 (0) Table wp_wc_comments_subscription: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_wc_comments_subscription.table.gz - 0.4 KB)
+0025.324 (0) Table wp_wc_phrases: Total expected rows (approximate): 0
+0025.327 (0) Table wp_wc_phrases: Total rows added: 0 in 0.00 seconds
+0025.329 (0) Table wp_wc_phrases: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_wc_phrases.table.gz - 0.3 KB)
+0025.361 (0) Table wp_wc_users_voted: Total expected rows (approximate): 2
+0025.365 (0) Table wp_wc_users_voted: Total rows added: 2 in 0.00 seconds
+0025.366 (0) Table wp_wc_users_voted: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_wc_users_voted.table.gz - 0.4 KB)
+0025.906 (0) Table wp_yarpp_related_cache: Total expected rows (approximate): 91
+0025.924 (0) Table wp_yarpp_related_cache: Total rows added: 101 in 0.02 seconds
+0025.925 (0) Table wp_yarpp_related_cache: finishing file (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_yarpp_related_cache.table.gz - 1.2 KB)
+0025.931 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_options.table.gz (1/38): adding to final database dump
+0025.951 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_users.table.gz (2/38): adding to final database dump
+0025.953 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_usermeta.table.gz (3/38): adding to final database dump
+0025.963 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_commentmeta.table.gz (4/38): adding to final database dump
+0025.964 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_comments.table.gz (5/38): adding to final database dump
+0025.966 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_links.table.gz (6/38): adding to final database dump
+0025.967 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_postmeta.table.gz (7/38): adding to final database dump
+0025.983 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_posts.table.gz (8/38): adding to final database dump
+0025.999 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_term_relationships.table.gz (9/38): adding to final database dump
+0026.002 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_term_taxonomy.table.gz (10/38): adding to final database dump
+0026.007 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_termmeta.table.gz (11/38): adding to final database dump
+0026.010 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_terms.table.gz (12/38): adding to final database dump
+0026.018 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_duplicator_packages.table.gz (13/38): adding to final database dump
+0026.021 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_mrp_custom_fields.table.gz (14/38): adding to final database dump
+0026.022 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_mrp_rating_form.table.gz (15/38): adding to final database dump
+0026.024 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_mrp_rating_form_item.table.gz (16/38): adding to final database dump
+0026.025 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_mrp_rating_item.table.gz (17/38): adding to final database dump
+0026.027 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_mrp_rating_item_entry.table.gz (18/38): adding to final database dump
+0026.029 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_mrp_rating_item_entry_value.table.gz (19/38): adding to final database dump
+0026.031 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_mrp_rating_result.table.gz (20/38): adding to final database dump
+0026.037 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_pmxe_exports.table.gz (21/38): adding to final database dump
+0026.039 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_pmxe_google_cats.table.gz (22/38): adding to final database dump
+0026.100 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_pmxe_posts.table.gz (23/38): adding to final database dump
+0026.102 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_pmxe_templates.table.gz (24/38): adding to final database dump
+0026.103 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_relevanssi.table.gz (25/38): adding to final database dump
+0026.129 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_relevanssi_log.table.gz (26/38): adding to final database dump
+0026.131 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_relevanssi_stopwords.table.gz (27/38): adding to final database dump
+0026.133 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_toolset_post_guid_id.table.gz (28/38): adding to final database dump
+0026.135 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_ultimate_csv_importer_log_values.table.gz (29/38): adding to final database dump
+0026.136 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_ultimate_csv_importer_manageshortcodes.table.gz (30/38): adding to final database dump
+0026.138 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_ultimate_csv_importer_shortcodes_statusrel.table.gz (31/38): adding to final database dump
+0026.139 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_wc_avatars_cache.table.gz (32/38): adding to final database dump
+0026.140 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_wc_comments_subscription.table.gz (33/38): adding to final database dump
+0026.141 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_wc_phrases.table.gz (34/38): adding to final database dump
+0026.142 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_wc_users_voted.table.gz (35/38): adding to final database dump
+0026.143 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db-table-wp_yarpp_related_cache.table.gz (36/38): adding to final database dump
+0026.145 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db.gz: finished writing out complete database file (328 KB)
+0026.159 (0) Total database tables backed up: 36 (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db.gz, size: 364144, sha256)
+0026.176 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0026.177 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0026.178 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0026.179 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+0026.180 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-others.zip: others: This file has not yet been successfully uploaded: will queue
+0026.181 (0) backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db.gz: db: This file has not yet been successfully uploaded: will queue
+0026.187 (0) Saving backup history. Total backup size: 172.8 MB
+0026.197 (0) Requesting upload of the files that have not yet been successfully uploaded (6)
+0026.202 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0026.206 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-a794a40835337c3dc20cdc3dc687e90a)
+0026.208 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0026.216 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0026.732 (0) Dropbox quota usage: used=321509.5 MB, total=1081856 MB, available=760346.5 MB
+0026.734 (0) Dropbox: Attempt to upload: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip to: onlines3/actionplan/backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip
+0028.509 (0) Dropbox chunked upload: 1.7 % uploaded (AAAAAAABF1qQ8hIRFTg8pw, 1048576, 5120 KB)
+0031.898 (0) Dropbox chunked upload: 10.3 % uploaded (AAAAAAABF1qQ8hIRFTg8pw, 6291456, 10240 KB)
+0035.391 (0) Dropbox chunked upload: 27.5 % uploaded (AAAAAAABF1qQ8hIRFTg8pw, 16777216, 10240 KB)
+0039.190 (0) Dropbox chunked upload: 44.7 % uploaded (AAAAAAABF1qQ8hIRFTg8pw, 27262976, 10240 KB)
+0043.060 (0) Dropbox chunked upload: 61.9 % uploaded (AAAAAAABF1qQ8hIRFTg8pw, 37748736, 10240 KB)
+0046.581 (0) Dropbox chunked upload: 79.1 % uploaded (AAAAAAABF1qQ8hIRFTg8pw, 48234496, 10240 KB)
+0050.044 (0) Dropbox chunked upload: 96.3 % uploaded (AAAAAAABF1qQ8hIRFTg8pw, 58720256, 10240 KB)
+0052.003 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABF1qQ8hIRFTg8pw, 60946688, 10240 KB)
+0053.302 (0) Recording as successfully uploaded: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip (bcba752ea5966f870123ca32ebb3bf11)
+0053.324 (0) Deleting local file: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip: OK
+0053.325 (0) Dropbox: File upload success (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-plugins.zip): 59518 KB in 26s (2238 KB/s)
+0053.752 (0) Dropbox quota usage: used=321567.6 MB, total=1081856 MB, available=760288.4 MB
+0053.753 (0) Dropbox: Attempt to upload: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-themes.zip to: onlines3/actionplan/backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-themes.zip
+0056.260 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABF1srL-1mQzd5Kw, 5278286, 10240 KB)
+0057.777 (0) Recording as successfully uploaded: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-themes.zip (92a39ceb22becf37e9a1f8f8beb3a148)
+0057.784 (0) Deleting local file: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-themes.zip: OK
+0057.785 (0) Dropbox: File upload success (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-themes.zip): 5154 KB in 4s (1278 KB/s)
+0058.263 (0) Dropbox quota usage: used=321572.7 MB, total=1081856 MB, available=760283.3 MB
+0058.265 (0) Dropbox: Attempt to upload: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-uploads.zip to: onlines3/actionplan/backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-uploads.zip
+0061.118 (0) Dropbox chunked upload: 59.6 % uploaded (AAAAAAABF1zuPOo0hbf7og, 10485760, 10240 KB)
+0065.443 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABF1zuPOo0hbf7og, 17607018, 10240 KB)
+0066.943 (0) Recording as successfully uploaded: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-uploads.zip (7b5a54a93b16f497b4ef24e54e721ae9)
+0066.955 (0) Deleting local file: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-uploads.zip: OK
+0066.956 (0) Dropbox: File upload success (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-uploads.zip): 17194 KB in 8s (1978 KB/s)
+0067.369 (0) Dropbox quota usage: used=321589.4 MB, total=1081856 MB, available=760266.6 MB
+0067.370 (0) Dropbox: Attempt to upload: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip to: onlines3/actionplan/backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip
+0070.762 (0) Dropbox chunked upload: 10.8 % uploaded (AAAAAAABF11IR7APnk4JTg, 10485760, 10240 KB)
+0073.907 (0) Dropbox chunked upload: 21.6 % uploaded (AAAAAAABF11IR7APnk4JTg, 20971520, 10240 KB)
+0077.697 (0) Dropbox chunked upload: 32.4 % uploaded (AAAAAAABF11IR7APnk4JTg, 31457280, 10240 KB)
+0081.023 (0) Dropbox chunked upload: 43.2 % uploaded (AAAAAAABF11IR7APnk4JTg, 41943040, 10240 KB)
+0083.697 (0) Dropbox chunked upload: 54 % uploaded (AAAAAAABF11IR7APnk4JTg, 52428800, 10240 KB)
+0087.317 (0) Dropbox chunked upload: 64.8 % uploaded (AAAAAAABF11IR7APnk4JTg, 62914560, 10240 KB)
+0091.212 (0) Dropbox chunked upload: 75.7 % uploaded (AAAAAAABF11IR7APnk4JTg, 73400320, 10240 KB)
+0094.665 (0) Dropbox chunked upload: 86.5 % uploaded (AAAAAAABF11IR7APnk4JTg, 83886080, 10240 KB)
+0097.158 (0) Dropbox chunked upload: 97.3 % uploaded (AAAAAAABF11IR7APnk4JTg, 94371840, 10240 KB)
+0099.216 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABF11IR7APnk4JTg, 97017650, 10240 KB)
+0100.696 (0) Recording as successfully uploaded: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip (777e8ce57435e7154f8757e4eb93db84)
+0100.727 (0) Deleting local file: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip: OK
+0100.728 (0) Dropbox: File upload success (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-wpcore.zip): 94743 KB in 33s (2840 KB/s)
+0101.127 (0) Dropbox quota usage: used=321682 MB, total=1081856 MB, available=760174 MB
+0101.129 (0) Dropbox: Attempt to upload: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-others.zip to: onlines3/actionplan/backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-others.zip
+0101.752 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABF16v9VE4BzEzKw, 579, 10240 KB)
+0102.748 (0) Recording as successfully uploaded: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-others.zip (1fab4adc0b91e7fbd3ca3ad74e38e998)
+0102.755 (0) Deleting local file: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-others.zip: OK
+0102.758 (0) Dropbox: File upload success (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-others.zip): 0 KB in 1s (0 KB/s)
+0103.269 (0) Dropbox quota usage: used=321682 MB, total=1081856 MB, available=760174 MB
+0103.270 (0) Dropbox: Attempt to upload: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db.gz to: onlines3/actionplan/backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db.gz
+0104.797 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABF19KbbxWwsC5_A, 364144, 10240 KB)
+0106.250 (0) Recording as successfully uploaded: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db.gz (13132d67d5d9d010a5ec11d8a346a3bd)
+0106.255 (0) Deleting local file: backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db.gz: OK
+0106.257 (0) Dropbox: File upload success (backup_2018-11-11-0023_RIS3_Actionplan_Codesign_989949c395fb-db.gz): 355 KB in 2s (119 KB/s)
+0106.263 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=6, retain_db=6
+0106.266 (0) Number of backup sets in history: 7; groups (db): 1
+0106.267 (0) Examining (for databases) backup set with group_id=0, nonce=989949c395fb, datestamp=1541888615 (Nov 10 2018 22:23:35)
+0106.268 (0) This backup set is the backup set just made, so will not be deleted.
+0106.268 (0) Examining (for databases) backup set with group_id=0, nonce=7d90da2f4938, datestamp=1541280822 (Nov 03 2018 21:33:42)
+0106.268 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0106.269 (0) Examining (for databases) backup set with group_id=0, nonce=f75bdd237868, datestamp=1540694069 (Oct 28 2018 02:34:29)
+0106.269 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0106.269 (0) Examining (for databases) backup set with group_id=0, nonce=1308c684dd1f, datestamp=1540074318 (Oct 20 2018 22:25:18)
+0106.269 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0106.269 (0) Examining (for databases) backup set with group_id=0, nonce=096e5008a071, datestamp=1539492105 (Oct 14 2018 04:41:45)
+0106.269 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0106.269 (0) Examining (for databases) backup set with group_id=0, nonce=caffc98f0ef1, datestamp=1538867148 (Oct 06 2018 23:05:48)
+0106.269 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0106.269 (0) Examining (for databases) backup set with group_id=0, nonce=65f2c56c1439, datestamp=1538292490 (Sep 30 2018 07:28:10)
+0106.270 (0) 1538292490: db: this set includes a database (backup_2018-09-30-1028_RIS3_Actionplan_Codesign_65f2c56c1439-db.gz); db count is now 6
+0106.270 (0) 1538292490: db: over retain limit (6); will delete this database
+0106.270 (0) Delete file: backup_2018-09-30-1028_RIS3_Actionplan_Codesign_65f2c56c1439-db.gz, service=dropbox
+0106.271 (0) Dropbox: request deletion: onlines3/actionplan/backup_2018-09-30-1028_RIS3_Actionplan_Codesign_65f2c56c1439-db.gz
+0107.277 (0) Dropbox: delete succeeded
+0107.281 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0107.282 (0) Number of backup sets in history: 7; groups (files): 1
+0107.283 (0) Examining (for files) backup set with nonce=989949c395fb, datestamp=1541888615 (Nov 10 2018 22:23:35)
+0107.283 (0) This backup set is the backup set just made, so will not be deleted.
+0107.284 (0) This backup set is the backup set just made, so will not be deleted.
+0107.284 (0) This backup set is the backup set just made, so will not be deleted.
+0107.284 (0) This backup set is the backup set just made, so will not be deleted.
+0107.285 (0) This backup set is the backup set just made, so will not be deleted.
+0107.285 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.286 (0) Examining (for files) backup set with nonce=7d90da2f4938, datestamp=1541280822 (Nov 03 2018 21:33:42)
+0107.286 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.286 (0) Examining (for files) backup set with nonce=f75bdd237868, datestamp=1540694069 (Oct 28 2018 02:34:29)
+0107.287 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.287 (0) Examining (for files) backup set with nonce=1308c684dd1f, datestamp=1540074318 (Oct 20 2018 22:25:18)
+0107.287 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.287 (0) Examining (for files) backup set with nonce=096e5008a071, datestamp=1539492105 (Oct 14 2018 04:41:45)
+0107.288 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.288 (0) Examining (for files) backup set with nonce=caffc98f0ef1, datestamp=1538867148 (Oct 06 2018 23:05:48)
+0107.288 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.288 (0) Examining (for files) backup set with nonce=65f2c56c1439, datestamp=1538292490 (Sep 30 2018 07:28:10)
+0107.288 (0) plugins: over retain limit (6); will delete this file entity
+0107.288 (0) themes: over retain limit (6); will delete this file entity
+0107.288 (0) uploads: over retain limit (6); will delete this file entity
+0107.288 (0) wpcore: over retain limit (6); will delete this file entity
+0107.289 (0) others: over retain limit (6); will delete this file entity
+0107.289 (0) Delete file: backup_2018-09-30-1028_RIS3_Actionplan_Codesign_65f2c56c1439-plugins.zip, service=dropbox
+0107.290 (0) Delete file: backup_2018-09-30-1028_RIS3_Actionplan_Codesign_65f2c56c1439-themes.zip, service=dropbox
+0107.291 (0) Delete file: backup_2018-09-30-1028_RIS3_Actionplan_Codesign_65f2c56c1439-uploads.zip, service=dropbox
+0107.292 (0) Delete file: backup_2018-09-30-1028_RIS3_Actionplan_Codesign_65f2c56c1439-wpcore.zip, service=dropbox
+0107.293 (0) Delete file: backup_2018-09-30-1028_RIS3_Actionplan_Codesign_65f2c56c1439-others.zip, service=dropbox
+0107.295 (0) Dropbox: request deletion: onlines3/actionplan/backup_2018-09-30-1028_RIS3_Actionplan_Codesign_65f2c56c1439-plugins.zip
+0108.059 (0) Dropbox: delete succeeded
+0108.060 (0) Dropbox: request deletion: onlines3/actionplan/backup_2018-09-30-1028_RIS3_Actionplan_Codesign_65f2c56c1439-themes.zip
+0108.948 (0) Dropbox: delete succeeded
+0108.949 (0) Dropbox: request deletion: onlines3/actionplan/backup_2018-09-30-1028_RIS3_Actionplan_Codesign_65f2c56c1439-uploads.zip
+0109.726 (0) Dropbox: delete succeeded
+0109.729 (0) Dropbox: request deletion: onlines3/actionplan/backup_2018-09-30-1028_RIS3_Actionplan_Codesign_65f2c56c1439-wpcore.zip
+0110.531 (0) Dropbox: delete succeeded
+0110.532 (0) Dropbox: request deletion: onlines3/actionplan/backup_2018-09-30-1028_RIS3_Actionplan_Codesign_65f2c56c1439-others.zip
+0111.319 (0) Dropbox: delete succeeded
+0111.322 (0) This backup set is now empty; will remove from history
+0111.323 (0) Deleting log file (log.65f2c56c1439.txt)
+0111.323 (0) Retain: saving new backup history (sets now: 6) and finishing retain operation
+0111.329 (0) Resume backup (989949c395fb, 0): finish run
+0111.332 (0) Decremented the semaphore (fd) by 1
+0111.333 (0) Semaphore (fd) unlocked
+0111.334 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0111.343 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 65.8 KB) to: patsa...
+0111.375 (0) The backup apparently succeeded and is now complete

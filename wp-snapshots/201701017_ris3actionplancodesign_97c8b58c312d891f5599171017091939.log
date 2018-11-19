@@ -1,0 +1,79 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 2017-10-17 09:20:25
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.26
+WORDPRESS:	4.8.2
+PHP INFO:	5.6.31 | SAPI: cgi-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (256M default) 
+MEMORY STACK: 83.5MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+TABLES: total:37 | filtered:0 | create:37 
+FILTERED: [] 
+SQL CREATED: 201701017_ris3actionplancodesign_97c8b58c312d891f5599171017091939_database.sql 
+SQL FILE SIZE: 2.28MB (2385855) 
+SQL FILE TIME: 2017-10-17 09:20:29 
+SQL RUNTIME: 3.75 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /home/intelpatsar/actionplan.s3platform.eu 
+ARCHIVE FILE: 201701017_ris3actionplancodesign_97c8b58c312d891f5599171017091939_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	202.84MB 
+STATS:	Dirs 2,244 | Files 13,618 
+SQL ADDED: 201701017_ris3actionplancodesign_97c8b58c312d891f5599171017091939_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 15862
+    [filename] => /home/intelpatsar/actionplan.s3platform.eu/wp-snapshots/tmp/201701017_ris3actionplancodesign_97c8b58c312d891f5599171017091939_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 84.97MB 
+ARCHIVE RUNTIME: 35.27 sec. 
+MEMORY STACK: 90.75MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+PACK SIZE:  
+Template parsed with new data 
+Complete [/home/intelpatsar/actionplan.s3platform.eu/wp-snapshots/tmp/201701017_ris3actionplancodesign_97c8b58c312d891f5599171017091939_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 2.28MB 
+Installer File: 438.37KB 
+Archive File: 84.97MB  
+
+********************************************************************************
+RECORD ID:[5]
+TOTAL PROCESS RUNTIME: 39.63 sec.
+PEAK PHP MEMORY USED: 95.25MB
+DONE PROCESSING => 201701017_ris3actionplancodesign 2017-10-17 09:21:05
+ 

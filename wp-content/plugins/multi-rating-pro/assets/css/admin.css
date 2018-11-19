@@ -1,0 +1,222 @@
+.form-table .widefat th,.form-table .widefat td {
+	padding: 8px 10px;
+}
+form#rating-entry-value-table-form div.tablenav label, form#rating-entry-value-table-form div.tablenav input {
+	margin-right: 6px;
+}
+table.form-table .checkbox-label {
+	margin-right: 12px;
+}
+
+.filters input[type="checkbox"] {
+	margin-left: 6px;
+}
+
+
+
+
+@media screen and (min-width: 782px) {
+	table.entries th#rating_details {
+		width: 27%;
+	}
+	table.entries th#id, table.ratingitems th#rating_item_id, table.customfields th#custom_field_id {
+		width: 2.2em;
+	}
+	table.ratingitems th#description, table.customfields th#label, table.ratingforms th#name {
+		width: 25%;
+	}
+	table.entries th#status {
+		width: 10%;
+	}
+	table.entries span.mrp-rating-details + span.mrp-rating-details {
+		display: block;
+		margin-top: 5px;
+	}
+	table.entries .column-date, table.entries .column-user {
+		width: 12%;
+	}
+}
+
+
+#database-settings-form p.description {
+	font-size: 14px;
+}
+
+/* Reports */
+
+form#entries-report-form {
+    margin-bottom: 20px;
+}
+
+#reports-form p.description {
+	margin-top: 4px;
+}
+
+.report-wrapper {
+	padding: 0px;
+	margin: 0px 0 10px 0;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+body.admin-color-classic .report-wrapper {
+	background: #fff;
+	background-color: #f7fcfe;
+	border: 1px solid #d1e5ee;
+}
+
+.flot-container {
+	width: 100%;
+	max-width: 100%;
+	display: inline-block;
+}
+
+.report-placeholder {
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	line-height: 1.2em;
+}
+
+#entries-report-form p {
+	margin-bottom: 0px;
+	line-height: 1em;
+	vertical-align: middle;
+}
+
+
+#reports-form select {
+	max-width: 180px;
+}
+
+.tickLabel {
+	color: #BBB;
+}
+
+
+#edit-rating td.first {
+	width: 10px;
+	white-space: nowrap;
+}
+
+
+div#custom-star-images-details td {
+	padding-bottom: 0px !important;
+	padding-top: 10px !important;
+}
+
+
+#clean-db-btn, #clear-db-btn, #refresh-db-btn { margin-right: 5px; }
+
+#custom-star-img-preview p {
+	margin-bottom: 6px !important;
+}
+
+
+
+
+
+
+ul.mrp-form-item-list {
+    margin-right: 10px;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+li.mrp-form-item {
+    margin-bottom: 9px;
+    border: 1px solid #e5e5e5;
+    background: #f9f9f9;
+    padding: 9px 15px;
+    cursor: move;
+    display: block;
+}
+
+table.mrp-filters tr td {
+	padding-left: 0px !important;
+	padding-top: 0px !important;
+	padding-bottom: 6px !important;
+	vertical-align: top;
+	min-width: 100px;
+	margin: 0px !important;
+}=
+
+form.filter table.form-table {
+	margin-right: 10px;
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+
+form.filter {
+	float: none;
+}
+
+#mrp-rating-forms #side-sortables ul li { display: inline-block; margin-right: 10px; }
+#mrp-rating-forms #side-sortables ul {
+	margin-top: 12px;
+	margin-bottom: 0px;
+}
+
+.mrp-filter {
+	margin-bottom: 1px;
+}
+.mrp-filter select {
+	margin-left: 0px;
+	margin-right: 2px;
+}
+
+#edit-rating-form .regular-text {
+	width: 25em !important;
+}
+#edit-rating-form select {
+	min-width: 100px;
+}
+
+#edit-rating-form .date-picker, #edit-rating-form .time-picker {
+	display: inline-block !important;
+	width: 120px !important;
+}
+
+a.more-terms {
+	display: block;
+	margin-top: 5px;
+}
+
+span.mrp-star-rating .dashicons {
+	font-size: 1.3em;
+	width: 0.9em;
+	height: 1em;
+}
+
+.mrp-star-rating + .star-result {
+	margin-left: 0px;
+}
+
+
+form#edit-rating-form select {
+	margin-right: 5px;
+}
+
+
+.about-wrap .mrp-badge { float: right; border-radius: 4px; margin: 0 0 15px 15px; max-width: 140px; }
+.about-wrap #mrp-header { margin-bottom: 15px; }
+.about-wrap #mrp-header h1 { margin-bottom: 15px !important; }
+.about-wrap .about-text { margin: 0 0 15px; max-width: 670px; }
+
+
+#rating-item-table-form .row-actions, #rating-form-table-form .row-actions, #custom-field-table-form .row-actions,
+#edit-rating-form .row-actions, #rating-results-table-form .row-actions, #rating-entries-table-form .row-actions {
+	color: #999;
+}
+
+
+form#rating-entry .regular-text, form#edit-custom-field .regular-text {
+	width: 25em !important;
+}
+form#rating-entry .small-text, form#edit-custom-field .small-text {
+	width: 10em !important;
+}

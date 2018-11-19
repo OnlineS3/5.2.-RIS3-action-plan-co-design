@@ -1,0 +1,18 @@
+<wpml-config>
+	<admin-texts>
+		<key name="mrp_custom_text_settings">
+			<key name="*"/>
+		</key>
+		<!-- The WPML config file does not support multiline... -->
+		<key name="mrp_email_settings">
+			<key name="mrp_approved_email_from_name" />
+			<key name="mrp_approved_email_subject" />
+			<key name="mrp_approved_email_heading" />
+			<key name="mrp_approved_email_template" />
+			<key name="mrp_moderation_email_from_name" />
+			<key name="mrp_moderation_email_subject" />
+			<key name="mrp_moderation_email_heading" />
+			<key name="mrp_moderation_email_template" />
+		</key>
+	</admin-texts>
+</wpml-config>

@@ -1,0 +1,63 @@
+<?php
+/**
+ * underscore.js template for the dialog for inserting a Toolset Form scaffold.
+ *
+ * @since m2m
+ */
+?>
+<script type="text/html" id="tmpl-cred-editor-scaffold-dialog">
+	<p>
+	{{{data.dialog.introduction}}}
+	</p>
+	<div class="cred-editor-scaffold-general-container">
+		<div class="cred-editor-scaffold-options-container" <# if( false === data.dialog.wpml_active ){ #> style="display:none;" <# } #>>
+			<h2><?php _e( 'Options', 'wp-cred' ); ?></h2>
+			<ul>
+				<li>
+					<label>
+						<input class="cred-editor-scaffold-options-wpml js-cred-editor-scaffold-options-wpml" type="checkbox" />
+						<?php _e( 'Include WPML localization', 'wp-cred' ); ?>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="cred-editor-scaffold-item-list-container js-cred-editor-scaffold-item-list-container">
+			<h2><?php _e( 'Form elements', 'wp-cred' ); ?></h2>
+			<ul class="cred-editor-scaffold-item-list js-cred-editor-scaffold-item-list">
+			<#
+			_.each( data.basic, function( field, fieldKey ) {
+				field = _.defaults( field, { templates: data.templates, fieldType: 'basic' } );
+				print( data.templates.scaffold.item( field ) );
+			});
+			if (
+				_.has( data, 'roles' ) 
+				&& _.size( data.roles ) > 0 
+			) {
+				_.each( data.roles, function( field, fieldKey ) {
+					field = _.defaults( field, { templates: data.templates, fieldType: 'roles' } );
+					print( data.templates.scaffold.item( field ) );
+				});
+			} 
+			if (
+				_.has( data, 'meta' ) 
+				&& _.size( data.meta ) > 0 
+			) {
+				_.each( data.meta, function( field, fieldKey ) {
+					field = _.defaults( field, { templates: data.templates, fieldType: 'meta' } );
+					print( data.templates.scaffold.item( field ) );
+				});
+			} 
+			if (
+				_.has( data, 'formElements' ) 
+				&& _.size( data.formElements ) > 0 
+			) {
+				_.each( data.formElements, function( field, fieldKey ) {
+					field = _.defaults( field, { templates: data.templates, fieldType: 'formElement' } );
+					print( data.templates.scaffold.item( field ) );
+				});
+			}
+			#>
+			</ul>
+		</div>
+	</div>
+</script>

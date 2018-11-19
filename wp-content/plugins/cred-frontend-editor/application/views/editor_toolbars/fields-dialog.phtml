@@ -1,0 +1,62 @@
+<?php
+/**
+ * underscore.js template for the dialog for inserting a Toolset Form field.
+ *
+ * @since m2m
+ */
+?>
+<script type="text/html" id="tmpl-cred-editor-fields-dialog">
+	<div class="cred-editor-fields-container js-cred-editor-fields-container">
+		<#
+		if (
+			_.has( data, 'formElements' ) 
+			&& _.size( data.formElements ) > 0 
+		) {
+			#><div class="cred-editor-fields-container-group js-cred-editor-fields-container-group">
+				<h2><?php _e( 'Form elements', 'wp-cred' ); ?> </h2><#
+			_.each( data.formElements, function( field, fieldKey ) {
+				field = _.defaults( field, { templates: data.templates, fieldType: 'formElement' } );
+				print( data.templates.fields.item( field ) );
+			});
+			#></div><#
+		}
+		if (
+			_.has( data, 'basic' ) 
+			&& _.size( data.basic ) > 0 
+		) {
+			#><div class="cred-editor-fields-container-group js-cred-editor-fields-container-group">
+				<h2><?php _e( 'Basic fields', 'wp-cred' ); ?> </h2><#
+			_.each( data.basic, function( field, fieldKey ) {
+				field = _.defaults( field, { templates: data.templates, fieldType: 'basic' } );
+				print( data.templates.fields.item( field ) );
+			});
+			#></div><#
+		}
+		if (
+			_.has( data, 'roles' ) 
+			&& _.size( data.roles ) > 0 
+		) {
+			#><div class="cred-editor-fields-container-group js-cred-editor-fields-container-group">
+				<h2><?php _e( 'Related posts', 'wp-cred' ); ?> </h2><#
+			_.each( data.roles, function( field, fieldKey ) {
+				field = _.defaults( field, { templates: data.templates, fieldType: 'roles' } );
+				print( data.templates.fields.item( field ) );
+			});
+			#></div><#
+		} 
+		if (
+			_.has( data, 'meta' ) 
+			&& _.size( data.meta ) > 0 
+		) {
+			#><div class="cred-editor-fields-container-group js-cred-editor-fields-container-group">
+				<h2><?php _e( 'Relationship fields', 'wp-cred' ); ?> </h2><#
+			_.each( data.meta, function( field, fieldKey ) {
+				field = _.defaults( field, { templates: data.templates, fieldType: 'meta' } );
+				print( data.templates.fields.item( field ) );
+			});
+			#></div><#
+		} 
+		#>
+		</ul>
+	</div>
+</script>

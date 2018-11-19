@@ -1,0 +1,17 @@
+<?php
+/**
+ * underscore.js template for the dialog for the cred-delete-relationship shortcode.
+ *
+ * Attributes data is loaded dynamically on an AJAX call.
+ *
+ * @since m2m
+ */
+?>
+<script type="text/html" id="tmpl-shortcode-cred-delete-relationship-template">
+	<?php if ( 'views-editor' == toolset_getget( 'page' ) ) { ?>
+	<#
+	data = _.extend( {}, data, { parameters: { 'role_items': '$fromViews' } } );
+	#>
+	<?php } ?>
+	<# print( data.templates.dialog( data ) ); #>
+</script>
